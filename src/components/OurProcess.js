@@ -76,7 +76,7 @@ const OurProcess = () => {
       // Parallax for decorative elements
       parallaxElementsRef.current.forEach((el, index) => {
         if (!el) return;
-        const speed = isMobile ? 0.3 : isTablet ? 0.5 : 0.7;
+        // Removed unused speed variable
         const yOffset = isMobile ? 20 + (index * 10) : 40 + (index * 15);
         
         gsap.to(el, {

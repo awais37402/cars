@@ -32,25 +32,25 @@ const Footer = () => {
               Experience the pinnacle of automotive excellence. Curated luxury vehicles for the discerning collector.
             </p>
             <div className="footer-social">
-              <a href="#" className="social-btn" aria-label="Instagram">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-btn" aria-label="Instagram">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
                   <rect x="2" y="2" width="20" height="20" rx="5" />
                   <circle cx="12" cy="12" r="4.5" />
                   <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
                 </svg>
               </a>
-              <a href="#" className="social-btn" aria-label="YouTube">
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="social-btn" aria-label="YouTube">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
                   <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z" />
                   <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
                 </svg>
               </a>
-              <a href="#" className="social-btn" aria-label="Twitter">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-btn" aria-label="Twitter">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
                 </svg>
               </a>
-              <a href="#" className="social-btn" aria-label="LinkedIn">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-btn" aria-label="LinkedIn">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
                   <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
                   <rect x="2" y="9" width="4" height="12" />
@@ -65,8 +65,8 @@ const Footer = () => {
             <div className="footer-links">
               <h4>Explore</h4>
               <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#featured">Collection</a></li>
+                <li><a href="#home" onClick={scrollToTop}>Home</a></li>
+                <li><a href="#collection">Collection</a></li>
                 <li><a href="#why-choose-us">Why Us</a></li>
                 <li><a href="#process">Our Process</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
@@ -76,22 +76,22 @@ const Footer = () => {
             <div className="footer-links">
               <h4>Services</h4>
               <ul>
-                <li><a href="#">Buy a Car</a></li>
-                <li><a href="#">Sell Your Car</a></li>
-                <li><a href="#">Financing</a></li>
-                <li><a href="#">Trade-In</a></li>
-                <li><a href="#">Concierge</a></li>
+                <li><a href="/buy-car">Buy a Car</a></li>
+                <li><a href="/sell-car">Sell Your Car</a></li>
+                <li><a href="/financing">Financing</a></li>
+                <li><a href="/trade-in">Trade-In</a></li>
+                <li><a href="/concierge">Concierge</a></li>
               </ul>
             </div>
 
             <div className="footer-links">
               <h4>Support</h4>
               <ul>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Shipping</a></li>
-                <li><a href="#">Warranty</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/faqs">FAQs</a></li>
+                <li><a href="/shipping">Shipping</a></li>
+                <li><a href="/warranty">Warranty</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
@@ -122,9 +122,9 @@ const Footer = () => {
             &copy; {currentYear} LuxAuto. All rights reserved.
           </p>
           <div className="footer-bottom-links">
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-            <a href="#">Cookies</a>
+            <a href="/terms">Terms</a>
+            <a href="/privacy">Privacy</a>
+            <a href="/cookies">Cookies</a>
           </div>
         </div>
       </div>
